@@ -14,7 +14,7 @@ const skills = [
   { name: "Databases", icon: DatabaseIcon },
   { name: "Laravel", icon: LaravelIcon },
   { name: "Vue.js", icon: VueIcon },
-  { name: ".NET", icon: DotnetIcon },
+  { name: "DOTNET", icon: DotnetIcon },
   { name: "Express.js", icon: ExpressIcon },
   { name: "REST API", icon: RestApiIcon },
 ];

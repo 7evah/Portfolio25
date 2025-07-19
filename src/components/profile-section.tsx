@@ -17,26 +17,22 @@ export function ProfileSection() {
           <p className="text-muted-foreground text-lg font-normal leading-normal">
             Full-Stack Developer
           </p>
-          <p className="text-muted-foreground text-base font-normal leading-normal max-w-2xl mt-2">
-            Passionate full-stack developer with expertise in building scalable
-            web applications. Experienced in various technologies including
-            Laravel, React, Node.js, and databases.
-          </p>
+        
         </div>
         <div className="flex w-full max-w-xs gap-3 mt-4">
           <Button asChild className="flex-1 bg-secondary hover:bg-primary text-secondary-foreground font-bold">
-            <a href="/cv.pdf" download="Hamza-El-Badaoui-CV.pdf">Download CV</a>
+            <a href="/CV_2025-05-22_Hamza_El_Badaoui.pdf" download="Hamza-El-Badaoui-CV.pdf">Download CV</a>
           </Button>
           <Button asChild className="flex-1 bg-[#dce8f3] hover:bg-white text-[#141a1f] font-bold">
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://github.com/7evah" target="_blank" rel="noopener noreferrer">GitHub</a>
           </Button>
         </div>
         <div className="pt-5">
            <h2 className="text-white text-2xl font-bold leading-tight tracking-[-0.015em]">About</h2>
            <p className="text-white text-base font-normal leading-normal pt-3 max-w-3xl mx-auto">
-              I am a full-stack developer with a passion for creating innovative and user-friendly web applications. With a strong foundation in both front-end and back-end
-              development, I enjoy tackling complex challenges and delivering high-quality solutions. My goal is to leverage my skills and experience to contribute to impactful
-              projects and continuously grow as a developer.
+            Passionate full-stack developer with expertise in building scalable
+            web applications. Experienced in various technologies including
+            Laravel, React, Node.js, and databases.
             </p>
         </div>
       </div>

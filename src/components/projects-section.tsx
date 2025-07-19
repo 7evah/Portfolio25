@@ -1,27 +1,30 @@
 import Image from "next/image";
+import CaptImage from "@/components/photos/Capt.png";
+import weatherImage from "@/components/photos/weather.png";
+import eventImage from "@/components/photos/eventma.png";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 
 const projects = [
   {
-    title: "E-commerce Platform",
-    description: "A full-featured e-commerce platform with user authentication, product management, and payment integration.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuCV6xCNJv_vEZAZjHrWWeAeIaGSO2Q37NzcU81vS5ql5ox6MXrYrprsT4VU9Hu30uRc0ElM0Uk0bV1bdcTnCoQuyGjE887NG-m70kdR3ZaknVIKG17BACLaJiYyqNSwsYHYorgiXgsivE0SobMoahZM_eiZKFXDhxrNyaC-qLrRtxIiJzBxLa0D2QIVbAKA2dADH2UYAt3_AQh94i70ZYqpGRG5VntGMMUbdQE3nn4_ua0IoPeiA7d0wkPezJYaJVG7km8Nopt_sQc",
-    imageHint: "online store",
-    link: "#"
+    title: "JobPortal",
+    description: "JobPortal is a platform for applying to jobs. The administrator manages job postings, and a secondary role can view, edit, or delete their own postings, which are only visible after approval by the administrator, using Laravel.",
+    imageUrl: CaptImage,
+    imageHint: "platform for applying to jobs",
+    link: "https://github.com/7evah/JobPortal",
   },
   {
-    title: "Social Media App",
-    description: "A social media application with user profiles, posts, and real-time updates.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuAPbB9BLWAFJcPxUGBscmsMvhqIJKUmGno5QXTA2_qXKgQ7rGtArew6b7JARPjLr8_I3CdTw_hB1KfJIKHBmrvTEAnvoqOYikMmZAtTJkwp3lZ7kGluZAB15JPZk8ohRehLVyCKZoSMbBv-nPXh_F44EOCvvQ4RA--Yoa0AwbZC5vIwycdTQrJliHuFoiGb-HJnySC5p22v8yH8Wbxh6lzAWnXeG-Q0QkCLK9gmEhD8secRyOHsEKfTUf515WDwFLs_f_ON9TRajLY",
-    imageHint: "social network",
-    link: "#"
+    title: "weather app",
+    description: "Mini weather app that lets you check the weather for the next 7 days with all the necessary details. You can search for any city. It was built with JavaScript and OpenWeatherMap.",
+    imageUrl: weatherImage,
+    imageHint: "weather app",
+    link: "https://github.com/7evah/weather-app"
   },
   {
-    title: "Task Management System",
-    description: "A task management system with project tracking, task assignments, and progress monitoring.",
-    imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuBcqKfDDmgg5yZiQzCpBlmgTigDCmDmIeZ_BRXII_wI7wVRi0UxqE6nLBGW7GEzEh_1rQMW2gJLphAFngohbgE858ubKhlE3hUnwx_4acr7UD0X7K9WrojIxqImfZUWO2dxKJ_AJGCu0AMxO9lJDcthf5p8YAYgJdu2OEcO5IaxAyfbTmD1eu4XHOp6nMxw1CJQEHvceydXF2lgQ5ZPhNtwCbOiel0ulViSvQu0BbU-ZC7kULyrFS-FKTv1VnOW0I-ZrHEiUVLKSag",
-    imageHint: "productivity tool",
-    link: "#"
+    title: "ticket booking platform",
+    description: "EventManager is a ticket booking platform for upcoming events or parties. It's a simple platform built with PHP.",
+    imageUrl: eventImage,
+    imageHint: "ticket booking platform",
+    link: "https://github.com/7evah/events-app"
   }
 ];
 

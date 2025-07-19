@@ -38,7 +38,7 @@ export function Header() {
           asChild
           className="bg-secondary hover:bg-primary"
         >
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="Github">
+          <a href="https://github.com/7evah" target="_blank" rel="noopener noreferrer" aria-label="Github">
             <GithubIcon className="size-5" />
           </a>
         </Button>
@@ -48,7 +48,7 @@ export function Header() {
           asChild
           className="bg-secondary hover:bg-primary"
         >
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/hamza-el-badaoui-81ba3a167/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <LinkedinIcon className="size-5" />
           </a>
         </Button>

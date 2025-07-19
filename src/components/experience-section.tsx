@@ -2,14 +2,24 @@ import { Briefcase } from "lucide-react";
 
 const experiences = [
   {
-    title: "Software Engineer",
-    company: "Tech Innovators Inc.",
-    period: "2020 - Present",
+    title: "Full Stack Coding Bootcamp MERN",
+    company: " Geeks Institute x INDH",
+    period: "04/2025 - 06/2025",
   },
   {
-    title: "Junior Developer",
-    company: "Web Solutions Co.",
-    period: "2018 - 2020",
+    title: "Full Stack Coding Bootcamp PHP LARAVEL / Vue.js",
+    company: "Simplon Maghreb x Talent4Startup",
+    period: "03/2024 - 09/2024",
+  },
+  {
+    title: "Internship in Operations and Incident ",
+    company: "Wafa LLD",
+    period: "07/2023 - 08/2023",
+  },
+  {
+    title: "Internship in building a Task Management system with Webdev",
+    company: "Maloco",
+    period: "05/2022 - 06/2022",
   },
 ];
 
