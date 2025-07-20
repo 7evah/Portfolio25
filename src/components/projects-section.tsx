@@ -38,7 +38,12 @@ export function ProjectsSection() {
             <Card className="bg-secondary border-border h-full overflow-hidden transition-transform duration-300 group-hover:scale-105 group-hover:shadow-lg group-hover:shadow-primary/20">
               <CardContent className="p-0">
                 <div className="relative w-full aspect-video">
-                  <Image src={project.imageUrl} alt={project.title} layout="fill" objectFit="cover" data-ai-hint={project.imageHint}/>
+                <Image
+  src={project.imageUrl}
+  alt={project.title}
+  fill
+  style={{ objectFit: "cover" }}
+/>
                 </div>
                 <div className="p-4">
                   <CardTitle className="text-base font-medium leading-normal">{project.title}</CardTitle>
