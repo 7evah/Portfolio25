@@ -21,7 +21,7 @@ export function ProfileSection() {
         </div>
         <div className="flex w-full max-w-xs gap-3 mt-4">
           <Button asChild className="flex-1 bg-secondary hover:bg-primary text-secondary-foreground font-bold">
-            <a href="https://github.com/7evah/MyCV/blob/main/CV_2025-05-22_Hamza_El%20Badaoui.pdf" download="Hamza-El-Badaoui-CV.pdf">Download CV</a>
+            <a href="https://github.com/7evah/MyCV/blob/main/CV_2025-05-22_Hamza_El%20Badaoui.pdf" download="Hamza-El-Badaoui-CV.pdf">My Resume</a>
           </Button>
           <Button asChild className="flex-1 bg-[#dce8f3] hover:bg-white text-[#141a1f] font-bold">
             <a href="https://github.com/7evah" target="_blank" rel="noopener noreferrer">GitHub</a>
