@@ -9,7 +9,7 @@ const nextConfig = {
       },
     ],
   },
-  
+  allowedDevOrigins: ['local-origin.dev', '*.local-origin.dev'],
   devIndicators: false,
 };
 
